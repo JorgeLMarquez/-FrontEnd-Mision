@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <title>Cake-it - Pedidos</title>
+   </head>
+   <body>
+      <img src="./cakeit/imagenes/cakeit.png" alt="logo de pasteleria" width="200px">
+      <h1>Datos del cliente</h1>
+
+      <form class="pedido.js" >
+
+        <!--************************Datos de usuario**************************************--->
+        <label for="Nombre">Estimado Usuario, proprocione su nombre: </label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br><br>
+
+        <label for="Numero">Número Telefónico</label>
+        <input type="number" name="Numero"  id="Numero" placeholder="+52">
+
+        <br><br>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="correo@example.com">
+        <!--************************Datos de Usuario**************************************--->
+
+        <!--************************Sabores**************************************--->
+        <h2>Selecciona un sabor o Combínalos</h2>
+        <input type="checkbox" id="tresleches" name="tresleches" value="tresleches">
+        <label for="tresleches">Pastel de tres leches</label>
+        <input type="number" name="Numtresleches"  id="Ntresleches" placeholder="¿Cuántos?">
+
+        <br><br>
+        <input type="checkbox" id="frutas" name="frutas" value="frutas">
+        <label for="frutas">Pastel de Frutas</label>
+        <input type="number" name="Numfrutas"  id="Nfrutas" placeholder="¿Cuántos?">
+
+        <br><br>
+        <input type="checkbox" id="choco" name="choco" value="choco">
+        <label for="choco">Pastel de Chololate</label>
+        <input type="number" name="Numchoco"  id="Numchoco" placeholder="¿Cuántos?">
+
+        <br><br>
+        <input type="checkbox" id="lemon" name="lemon" value="lemon">
+        <label for="lemon">Pastel de Limón</label>
+        <input type="number" name="Numlemon"  id="Numlemon" placeholder="¿Cuántos?">
+
+        <br><br>
+        <input type="checkbox" id="fresa" name="fresa" value="fresa">
+        <label for="fresa">Pastel de Fresa</label>
+        <input type="number" name="Numfresa"  id="Numfresa" placeholder="¿Cuántos?">
+        <!--************************Sabores**************************************--->
+
+        <!--************************Adornos**************************************--->
+        <h2>Selecciona un adorno o Combínalos</h2>
+        <input type="checkbox" id="Sorprendas" name="Sorprendas" value="Sorprendas">
+        <label for="Sorprendas">Paquete Sorprendas</label>
+
+
+        <br><br>
+        <input type="checkbox" id="Cases" name="Cases" value="Cases">
+        <label for="Cases">Paquete Cases</label>
+
+
+        <br><br>
+        <input type="checkbox" id="Reconcilies" name="Reconcilies" value="Reconcilies">
+        <label for="Reconcilies">Paquete Reconcilies</label>
+
+        <br><br>
+        <input type="checkbox" id="Reenconfortes" name="Reenconfortes" value="Reenconfortes">
+        <label for="Reenconfortes">Paquete Reenconfortes</label>
+
+        <!--************************Adornos**************************************--->
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+
+
+      </form>
+
+
+
+   </body>
+</html>
