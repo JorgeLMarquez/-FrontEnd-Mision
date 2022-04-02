@@ -1,0 +1,17 @@
+.menuActivo {
+    color: #fff !important;
+    background-color: #337AB7 !important;
+}
+
+.formulario {
+    text-align: right;
+    color: grey;
+}
+
+label{
+    font-weight: normal;
+}
+
+#espacio input{
+    margin: 5px;
+}
